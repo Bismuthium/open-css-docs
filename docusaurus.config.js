@@ -4,19 +4,18 @@
 const lightCodeTheme = require("prism-react-renderer/themes/github");
 const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
-const organizationName = "LayZeeDK";
-const projectName = "github-pages-docusaurus";
+const organizationName = "Bismuthium";
+const projectName = "open-css-docs";
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "My Site",
-  tagline: "Dinosaurs are cool",
-  url: `https://${organizationName}.github.io`,
+  title: "Open-CSS Documentation",
+  tagline: "Easy to use CSS framework",
+  url: `https://bismuthium.github.io`,
   baseUrl: `/${projectName}/`,
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "throw",
-  favicon: "img/favicon.ico",
-  // GitHub Pages adds a trailing slash by default that I don't want
+  // GitHub Pages adds a trailing slash by default that I don't want :fail:
   trailingSlash: false,
 
   // GitHub pages deployment config.
@@ -60,11 +59,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: "My Site",
-        logo: {
-          alt: "My Site Logo",
-          src: "img/logo.svg",
-        },
+        title: "Open-CSS Documentation",
         items: [
           {
             type: "doc",
@@ -93,23 +88,6 @@ const config = {
             ],
           },
           {
-            title: "Community",
-            items: [
-              {
-                label: "Stack Overflow",
-                href: "https://stackoverflow.com/questions/tagged/docusaurus",
-              },
-              {
-                label: "Discord",
-                href: "https://discordapp.com/invite/docusaurus",
-              },
-              {
-                label: "Twitter",
-                href: "https://twitter.com/docusaurus",
-              },
-            ],
-          },
-          {
             title: "More",
             items: [
               {
@@ -123,7 +101,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Bismuthium. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,

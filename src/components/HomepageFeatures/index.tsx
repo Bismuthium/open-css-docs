@@ -14,8 +14,7 @@ const FeatureList: FeatureItem[] = [
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Bismuthium Open-CSS is a CSS framework with ease of use in mind.
       </>
     ),
   },
@@ -24,18 +23,16 @@ const FeatureList: FeatureItem[] = [
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Open-CSS has classes for the navbar, containers, content, and a footer. Everything a site needs, really.
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Use with any library',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Open-CSS is a pretty simple CSS framework which means you can use it in any webapp library.
       </>
     ),
   },

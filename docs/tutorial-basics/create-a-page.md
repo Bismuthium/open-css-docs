@@ -4,40 +4,32 @@ sidebar_position: 1
 
 # Create a Page
 
-Add **Markdown or React** files to `src/pages` to create a **standalone page**:
+:::info
 
-- `src/pages/index.js` → `localhost:3000/`
-- `src/pages/foo.md` → `localhost:3000/foo`
-- `src/pages/foo/bar.js` → `localhost:3000/foo/bar`
+This tutorial is aiming for **Vanilla HTML** although if you have a basic knowledge of other librarys then it should be easy to follow along.
 
-## Create your first React Page
+:::
 
-Create a file at `src/pages/my-react-page.js`:
-
-```jsx title="src/pages/my-react-page.js"
-import React from 'react';
-import Layout from '@theme/Layout';
-
-export default function MyReactPage() {
-  return (
-    <Layout>
-      <h1>My React page</h1>
-      <p>This is a React page</p>
-    </Layout>
-  );
-}
+First of all, to start with Open-CSS, lets create a basic HTML website. You can do this easily by making a folder, then creating an index.html inside of it.<br />
+A local server is recommended, you can do this with the **Live Server** VS code extension, or node serve/python simple-http-server.<br />
+Let's start off with a Basic HTML page. You can copy this little template into your index.html file, or if your using VS code type an exclamation mark then press enter. They are both the same.
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
 ```
-
-A new page is now available at [http://localhost:3000/my-react-page](http://localhost:3000/my-react-page).
-
-## Create your first Markdown Page
-
-Create a file at `src/pages/my-markdown-page.md`:
-
-```mdx title="src/pages/my-markdown-page.md"
-# My Markdown page
-
-This is a Markdown page
+After you have downloaded Open-CSS from the github page, import it with a link tag.
+```html
+<!-- add this to the head -->
+<link rel="stylesheet" href="open-css.css">
 ```
-
-A new page is now available at [http://localhost:3000/my-markdown-page](http://localhost:3000/my-markdown-page).
+That's it! You have successfully created a basic HTML page with Open-CSS imported.<br />
+Click the **Next** button at the bottom to start learning Open-CSS.
