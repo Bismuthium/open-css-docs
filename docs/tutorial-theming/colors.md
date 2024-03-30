@@ -8,6 +8,7 @@ Colors. Arguably the most important thing if you're designing a website. Choose 
 Well, Open-CSS already has the colors. You just need to use them.<br />
 <br />
 First, here's our HTML. We want to give it a blue theme.<br />
+
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -29,8 +30,10 @@ First, here's our HTML. We want to give it a blue theme.<br />
 </body>
 </html>
 ```
+
 But before we do any theming, we need to import Open-CSS. Let's assume we're using 2.0 for this example, and the file is in the root directory next to our **index.html** file.<br />
 First, add the appropriate class tags.
+
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -53,7 +56,9 @@ First, add the appropriate class tags.
 </body>
 </html>
 ```
+
 When we open this site, we'll see it still isn't blue. It's time to apply the appropriate color classes.<br />
+
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -76,4 +81,5 @@ When we open this site, we'll see it still isn't blue. It's time to apply the ap
 </body>
 </html>
 ```
+
 There wasn't much to do there, but if we had buttons we would've had to change those to use blue too. You might also notice that I've changed the **a** tags to use black instead of white. I did that for readability purposes.<br />
